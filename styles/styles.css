@@ -1,0 +1,408 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Monserrat', sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+/* HEADER */
+header {
+    background-image: url("../assets/banner_4.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 6vw;
+}
+
+div.barraNavegacion {
+    width: 70%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+div.barraNavegacion nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: rgb(61, 61, 61, 0.603);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    width: 110px;
+    height: 30px;
+    text-align: center;
+}
+
+a:hover {
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 1.1rem;
+    color: rgba(236, 199, 30, 0.685);
+    transition: background-color .7s
+}
+
+div.titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    padding-left: 8%;
+    width: 75%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 6rem;
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212);
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212);
+    width: 55%;
+}
+
+/* MAIN GENERAL */
+main.mainGeneral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 75%;
+}
+
+h3 {
+    font-weight: lighter;
+    background-color: white;
+    box-shadow: 6px 6px  rgba(225, 174, 50, 0.685);
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+img.evento {
+    margin-top: 10%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 80%;
+    height: 30vh;
+    background-color: white;
+    box-shadow: 6px 6px  rgba(225, 174, 50, 0.685);
+    margin-bottom: 2vh;
+}
+
+article:hover {
+    color: white;
+    background-color: rgba(255, 219, 59, 0.685);
+    transition: background-color .7s
+}
+
+article h4 {
+    font-weight: lighter;
+    width: 90%;
+    color: rgba(61, 61, 61, 0.788);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+article p {
+    font-weight: lighter;
+    width: 90%;
+    color: rgba(61, 61, 61, 0.788);
+    text-align: center;
+    font-size: 1rem;
+}
+
+/*about*/
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about div {
+    justify-content: center;
+    align-items: center;
+}
+
+article.about {
+    padding: 4%;
+}
+
+section.about {
+    margin-top: 2%;
+}
+
+/*rules*/
+.rules {
+    background-color: white;
+    box-shadow: 6px 6px  rgba(225, 174, 50, 0.685);
+    width: 70%;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+/*games*/
+main div, div.bloqueGames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+}
+
+div.games {
+    display: flex;
+}
+
+h4.games {
+    font-weight: lighter;
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: white;
+    box-shadow: 6px 6px  rgba(225, 174, 50, 0.685);
+    width: 75%;
+}
+
+table caption {
+    font-weight: lighter;
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    font-size: 1rem;
+    margin-bottom: 2vh;
+}
+
+p.games {
+    font-weight: lighter;
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    font-size: 1.5rem;
+    margin-top: 4%;
+}
+
+iframe {
+    width: 23vw;
+    height: 20vh;
+    border: 0;
+}
+
+table, tr, th, td {
+    background-color: white;
+    border-collapse: collapse;
+    border: 2px solid rgba(225, 174, 50, 0.685);
+    justify-content: space-between;
+    color: rgba(61, 61, 61, 0.788);
+    text-align: center;
+}
+
+table {
+    box-shadow: 6px 6px  rgba(225, 174, 50, 0.685);
+}
+
+th {
+    padding: 1rem;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+div.bloqueGames {
+    font-weight: lighter;
+    color: rgba(61, 61, 61, 0.603);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+    font-size: 1rem;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+div.cajaGame, div.cajaGame2 {
+    align-items: flex-start;
+}
+
+/* FORMULARIO */
+
+main.mainForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form {
+    color: rgba(61, 61, 61, 0.829);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.048);
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+}
+
+form, input, fieldset {
+    border: 2px solid rgba(225, 174, 50, 0.685);
+}
+
+fieldset h3 {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.bloqueForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4%;
+}
+
+div.datos1, div.datos3, div.datos2, div.datos4 {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+form input {
+    padding: .5rem;
+    margin: 1rem;
+    flex: 1;
+}
+
+div.datos2, div.datos4 {
+    align-items: center;
+    align-self: center;
+}
+
+div.datos3 div {
+    flex-direction: row;
+    width: 30%;
+}
+
+div.datos3 div p, div.datos2 p {
+    padding-right: 3%;
+}
+
+div.datos4 div, div.datos5 {
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+div.despegable, div.position, div.lala {
+    flex-direction: row;
+    align-items: center;
+}
+
+div.datos5 {
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+div.datos5 div, div.datos6 {
+    flex-direction: row;
+    align-content: space-around;
+}
+
+h4.school {
+    padding: 2%;
+}
+
+div.position {
+    flex-direction: column;
+}
+
+h4.position {
+    margin: 2%;
+}
+
+.boton {
+    align-items: center;
+    width: 100%;
+    background-color: rgba(225, 174, 50, 0.685);
+}
+
+/* contact */
+.cajaContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    background-color: white;
+    box-shadow: 6px 6px  rgba(225, 174, 50, 0.685);
+    margin: 2%;
+    width: 70%;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-image: url("../assets/footer.png");
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+}
+
+footer p {
+    margin-left: 3.5vw;
+    margin-top: 100vh;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
